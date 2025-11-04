@@ -11,16 +11,16 @@
 
 class Bonezegei_74HC595 {
 public:
-  Bonezegei_74HC595(int dataPin, int clockPin, int latchPin, int numRegisters = 1);
+  Bonezegei_74HC595(uint8_t dataPin, uint8_t clockPin, uint8_t latchPin, uint8_t numRegisters);
   void begin();
   void shift8(uint8_t data);
   void write(uint64_t data);
   void clear();
 //private:
-  int _dataPin;
-  int _clockPin;
-  int _latchPin;
-  int _numRegisters;
+  uint8_t _dataPin;
+  uint8_t _clockPin;
+  uint8_t _latchPin;
+  uint8_t _numRegisters;
 };
 
 #endif
