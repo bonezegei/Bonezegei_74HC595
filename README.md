@@ -1,2 +1,5 @@
 # Bonezegei_74HC595
-Shift Register
+The Bonezegei_74HC595 is a simple library that makes it easy to use the 74HC595 chip. This chip helps your main computer (like an Arduino) get more output pins, letting it control many things like more LEDs or lights using only a few wires. The library takes care of the complex steps of sending data quickly, so you only need simple commands to tell the chip to turn the lights on or off. This saves you time and makes it much easier to build projects with many outputs.
+
+<h4>Disclaimer</h4>
+<p>The code and libraries provided by Bonezegei is intended for informational and educational purposes only. Bonezegei does not own or manufacture the hardware associated with the code. The code is provided "as is" without any warranty, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall Bonezegei be liable for any claim, damages, or other liability arising from the use of the code or the hardware. Users are solely responsible for ensuring that their use of the code complies with all applicable laws and regulations.</p>
