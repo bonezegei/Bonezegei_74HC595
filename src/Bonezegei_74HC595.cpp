@@ -6,13 +6,13 @@ Bonezegei_74HC595::Bonezegei_74HC595(uint8_t dataPin, uint8_t clockPin, uint8_t 
         _clockPin = clockPin;
         _latchPin = latchPin;
         _numRegisters = numRegisters;
-        
-        pinMode(_dataPin, OUTPUT);
-        pinMode(_clockPin, OUTPUT);
-        pinMode(_latchPin, OUTPUT);
 }
 
 void Bonezegei_74HC595::begin() {
+    pinMode(_dataPin, OUTPUT);
+    pinMode(_clockPin, OUTPUT);
+    pinMode(_latchPin, OUTPUT);
+
     digitalWrite(_latchPin, LOW);
     clear();
     digitalWrite(_latchPin, HIGH);
