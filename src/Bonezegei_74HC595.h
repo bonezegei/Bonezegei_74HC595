@@ -16,7 +16,7 @@ public:
   void shift8(uint8_t data);
   void write(uint64_t data);
   void clear();
-private:
+//private:
   int _dataPin;
   int _clockPin;
   int _latchPin;

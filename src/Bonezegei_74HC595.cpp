@@ -1,8 +1,12 @@
 #include "Bonezegei_74HC595.h"
 
 
-Bonezegei_74HC595::Bonezegei_74HC595(int dataPin, int clockPin, int latchPin, int numRegisters)
-    : _dataPin(dataPin), _clockPin(clockPin), _latchPin(latchPin), _numRegisters(numRegisters) {
+Bonezegei_74HC595::Bonezegei_74HC595(int dataPin, int clockPin, int latchPin, int numRegisters) {
+        _dataPin = dataPin;
+        _clockPin = clockPin;
+        _latchPin = latchPin;
+        _numRegisters = numRegisters;
+        
         pinMode(_dataPin, OUTPUT);
         pinMode(_clockPin, OUTPUT);
         pinMode(_latchPin, OUTPUT);
