@@ -1,0 +1,10 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Batutay
+  given-names: Jofel
+orcid: https://orcid.org/0009-0007-1467-1947
+title:bonezegei/Bonezegei_74HC595: Version 1.0
+version: v1.0.0
+date-released: 2025-11-04
+                                
