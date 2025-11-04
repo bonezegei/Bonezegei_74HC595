@@ -18,7 +18,7 @@ class Bonezegei_74HC595 {
     void shift8(uint8_t data);
     void write(uint64_t data);
     void clear();
-  //private:
+  private:
     uint8_t _dataPin;
     uint8_t _clockPin;
     uint8_t _latchPin;
